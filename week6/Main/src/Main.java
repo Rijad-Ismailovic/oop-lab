@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) throws Exception {
         /* int[] values = {6, 5, 8, 7, 11};
