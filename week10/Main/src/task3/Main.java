@@ -44,7 +44,7 @@ public class Main {
         long randomEpochSecond = ThreadLocalRandom.current().nextLong(oneYearAgo.getEpochSecond(), currentTimestamp.getEpochSecond());
         return (Instant.ofEpochSecond(randomEpochSecond)).toString();
     }
-
+    
     public static String randomEventType(){
         String[] eventTypes = {"Login", "Logout", "Purchase", "ViewPage", "Error"};
         int arrayLength = eventTypes.length;
