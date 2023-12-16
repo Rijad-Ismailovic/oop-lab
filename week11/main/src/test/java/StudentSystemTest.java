@@ -8,7 +8,6 @@ import com.example.exceptions.StudentNotFoundException;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Optional;
 
 public class StudentSystemTest{
