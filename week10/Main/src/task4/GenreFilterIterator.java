@@ -9,7 +9,7 @@ public class GenreFilterIterator implements Iterator<Song>{
     private String genre;
     private int index;
 
-    public GenreFilterIterator(ArrayList playlist, String genre) {
+    public GenreFilterIterator(ArrayList<Song> playlist, String genre) {
         this.playlist = playlist;
         this.genre = genre;
         this.index = 0;
