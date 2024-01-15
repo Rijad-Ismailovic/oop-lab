@@ -62,7 +62,7 @@ public class Coffee{
         }
 
         public LatteBuilder buildSize(){
-            this.size = "medium";
+            this.size = "medium"; 
             return this;
         }
 
